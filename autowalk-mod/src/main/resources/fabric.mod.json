@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "autowalk",
+  "version": "${version}",
+  "name": "Auto Walk Toggle",
+  "description": "Presiona una tecla para caminar hacia adelante hasta que la vuelvas a presionar o te muevas con W/A/S/D.",
+  "authors": [
+    "Tú"
+  ],
+  "contact": {},
+  "license": "CC0-1.0",
+  "icon": "assets/autowalk/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.autowalk.AutoWalkClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
